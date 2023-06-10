@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "@paulost/solid-ionic": "workspace:*",
+    "@solidjs/router": "^0.8.2",
+    "ionicons": "^7.1.2",
     "solid-js": "^1.7.6"
   }
 }

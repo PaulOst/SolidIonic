@@ -30,6 +30,7 @@ export * from './IonMenu';
 export * from './IonModal';
 export * from './IonNav';
 export * from './IonNote';
+export * from './IonPage';
 export * from './IonPicker';
 export * from './IonPopover';
 export * from './IonProgressBar';
@@ -39,6 +40,7 @@ export * from './IonRefresher';
 export * from './IonReorder';
 export * from './IonRouter';
 export * from './IonSearchbar';
+export * from './IonSegment';
 export * from './IonSkeletonText';
 export * from './IonSpinner';
 export * from './IonSplitPane';
@@ -51,9 +53,4 @@ export * from './IonToolbar';
 
 import { initialize } from '@ionic/core/components';
 
-// Initializes the Ionic config and `mode` behavior
-// if (navigator.userAgent.indexOf('Win') != -1) {
-//   initialize({ mode: 'ios' }); // Use iOS mode on Windows
-// } else {
-initialize(); // Use default mode everywhere else
-// }
+initialize(); // Initialize Ionic Components
