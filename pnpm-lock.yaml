@@ -679,7 +679,7 @@ packages:
   /@ionic/core@7.0.12:
     resolution: {integrity: sha512-DCBrxKQ59oghBxZOWqbJihedJ9rkVpi4ka+VGclOtndvz8PbEOsPArVUDYPGI7md3SVZ0qaVelbSwqQbyHRY7g==}
     dependencies:
-      '@stencil/core': 3.3.1
+      '@stencil/core': 3.4.0
       ionicons: 7.1.2
       tslib: 2.5.3
     dev: false
@@ -734,6 +734,12 @@ packages:
 
   /@stencil/core@3.3.1:
     resolution: {integrity: sha512-I+660Oe9OMLiU+thjV1GgcI27dcvrSpF3xisHWBOU/4mzRtho3YW0cI8lSjcqyB1KirGTA6QeQ0Xif5UHqn8hw==}
+    engines: {node: '>=14.10.0', npm: '>=6.0.0'}
+    hasBin: true
+    dev: false
+
+  /@stencil/core@3.4.0:
+    resolution: {integrity: sha512-kEtPtV6QegME8YgMjWrhS7KktItbhqOpAuK9aXypDdI/7bLU9iM/4DtnQGWY/DARBophk+XRBfNXcE62Bmi0dw==}
     engines: {node: '>=14.10.0', npm: '>=6.0.0'}
     hasBin: true
     dev: false
